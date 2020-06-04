@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "description": "See README.md",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5",
+    "lerna": "^3.22.0",
     "standard-version": "^8.0.0"
   },
   "scripts": {
@@ -25,6 +25,10 @@
     "type": "git",
     "url": "git+https://github.com/leeBigCommerce/golden-goose.git"
   },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
