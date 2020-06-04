@@ -19,8 +19,9 @@ It's a visual world - a site's ability to fulfill user needs can be greatly affe
 
 ## Rough TODO list
 
-- Set up basic repo etiquette with 'standard-version' and 'commitlint'
-- Set up a mono repo in anticipation that sections of our code will want loose coupling
+-  ~~Set up basic repo etiquette with 'standard-version' and 'commitlint'~~
+-  ~~Set up a mono repo in anticipation that sections of our code will want loose coupling~~
+- Prove out mono repo structure (not sure lerna and/or workspaces are set up correctly)
 - Create a set of business requirements (possibly in Cucumber), possibly ranked/grouped by criticality
 - Set up a test runner that qualifies those requirements (possibly Cypress)
 - Create a (possibly mock) CI flow which uses the above tests as a gate to deployment (possibly with some less critical running post for speed reasons)
