@@ -10,7 +10,7 @@
     "url": "git+https://github.com/leeBigCommerce/golden-goose.git"
   },
   "scripts": {
-    "lint": "../../node_modules/.bin/gherkin-lint"
+    "lint": "./node_modules/.bin/gherkin-lint"
   },
   "devDependencies": {
     "gherkin-lint": "^4.0.1"
