@@ -1,0 +1,39 @@
+{
+  "name": "golden-goose",
+  "version": "0.0.1",
+  "description": "See README.md",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.0"
+  },
+  "scripts": {
+    "commit": "npx git-cz",
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeBigCommerce/golden-goose.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeBigCommerce/golden-goose/issues"
+  },
+  "homepage": "https://github.com/leeBigCommerce/golden-goose#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
