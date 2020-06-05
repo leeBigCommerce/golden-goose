@@ -1,5 +1,3 @@
-const cucumber = require('cypress-cucumber-preprocessor').default
+const pickle = require('picklejs/cypress/plugin');
 
-module.exports = (on) => {
-  on('file:preprocessor', cucumber())
-}
+module.exports = pickle;
